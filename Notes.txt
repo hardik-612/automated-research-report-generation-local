@@ -1,0 +1,21 @@
+Things to keep in mind while making the project.
+These folder will be under research_and_analyst folder.
+Add 5 folders - config, exception, logger, utils, routers, prompt_lib (under this folder prompts.py)
+
+we will be creating a similar folder called template, static
+
+Creating bankend server folder for backend code.
+Under this folder will be having below files
+__init__, schema, graph, workflow, models (Pydantic models)
+
+UI will be created using javascript. (we should not really focus on UI, there will be separate UI team for that. Just focus on core concepts of GENAI)
+
+Note - In GENAI interviews companies might ask you DSA questions as well. (It depends on company to company as well.)
+
+
+# -----------------
+Langgraph is very good for the orchestration
+there is the difference orchestration and Multi Agent.
+the advanced version of orchestration is Multi Agent (In this we are running everything in the loop connecting this agent with another agent).
+99 % of the time, multi agentic architecture is not successful, it is very token consuming and it is also NOT giving good results.
+
